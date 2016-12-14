@@ -1,0 +1,40 @@
+{
+  "name": "add-language-badges",
+  "version": "0.0.0",
+  "description": "Add language badges to a repo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RichardLitt/add-language-badges.git"
+  },
+  "homepage": "https://github.com/RichardLitt/add-language-badges",
+  "bugs": "https://github.com/RichardLitt/add-language-badges/issues",
+  "author": {
+    "name": "Richard Littauer",
+    "email": "richard.littauer@gmail.com",
+    "url": "burntfen.com"
+  },
+  "bin": "cli.js",
+  "scripts": {
+  	"lint": "standard",
+    "test": "standard && ava"
+  },
+  "keywords": [
+    "language,",
+    "linguist,",
+    "badges,",
+    "github,",
+    "markdown,",
+    "readme",
+    "cli-app",
+    "cli",
+    ""
+  ],
+  "dependencies": {
+    "meow": "^3.6.0"
+  },
+  "devDependencies": {
+    "standard": "^5.4.1",
+    "ava": "^0.9.1"
+  }
+}
