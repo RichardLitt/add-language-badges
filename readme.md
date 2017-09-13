@@ -1,5 +1,7 @@
 # add-language-badges
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/RichardLitt/add-language-badges.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/RichardLitt/add-language-badges.svg?branch=master)](https://travis-ci.org/RichardLitt/add-language-badges)
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
