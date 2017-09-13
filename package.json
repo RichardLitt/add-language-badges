@@ -34,7 +34,7 @@
     "meow": "^3.6.0"
   },
   "devDependencies": {
-    "standard": "^5.4.1",
-    "ava": "^0.9.1"
+    "standard": "^10.0.3",
+    "ava": "^0.22.0"
   }
 }
