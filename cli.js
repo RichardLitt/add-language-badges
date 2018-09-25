@@ -2,7 +2,7 @@
 'use strict'
 
 var meow = require('meow')
-var addLanguageBadges = require('./')
+const addLanguageBadges = require('./')
 
 var cli = meow([`
   Usage
@@ -16,10 +16,10 @@ var cli = meow([`
     unicorns & rainbows
     $ add-language-badges ponies
     ponies & rainbows
-`, {
+`], {
   alias: {}
-}])
+})
 
-addLanguageBadges({}, function (data) {
-  console.log('data', data)
+addLanguageBadges(cli.input[0], {}, function (data) {
+  console.log(data)
 })

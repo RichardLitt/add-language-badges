@@ -16,8 +16,8 @@
   },
   "bin": "cli.js",
   "scripts": {
-  	"lint": "standard",
-    "test": "standard && ava"
+    "lint": "standard",
+    "test": "ava"
   },
   "keywords": [
     "language,",
@@ -31,10 +31,12 @@
     ""
   ],
   "dependencies": {
+    "graceful-fs": "^4.1.11",
+    "js-linguist": "0.0.0",
     "meow": "^3.6.0"
   },
   "devDependencies": {
-    "standard": "^5.4.1",
-    "ava": "^0.9.1"
+    "standard": "^8.6.0",
+    "ava": "^0.17.0"
   }
 }
